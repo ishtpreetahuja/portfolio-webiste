@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Ishtpreet Singh</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: #b61924;
+            background-size: cover;
+            background-position: 50% 50%;
+            z-index: -1; /* Ensure particles are behind other content */
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+        }
+        .content {
+            position: relative;
+            z-index: 1; /* Ensure content is above particles */
+        }
+    </style>
+	<script type="text/javascript"
+	src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+	(function(){
+	emailjs.init({
+		publicKey: "ZqI9R3wHysgNmquIi",
+	});
+	})();
+	</script>
+	<script src="assets/js/email.js"></script>
+</head>
+<body class="is-preload">
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <section id="header" class="content">
+        <header class="major">
+            <h1>Ishtpreet Singh</h1>
+            <p>Aspiring Software Engineer | CSE Student</p>
+        </header>
+        <div class="container">
+            <ul class="actions special">
+                <li><a href="#one" class="button primary scrolly">Begin</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="main special content">
+        <div class="container">
+            <div class="content">
+                <header class="major">
+                    <h2>About me</h2>
+                </header>
+                <p>Hi, I'm Ishtpreet Singh, a sophomore at Thapar Institute of Engineering and Technology, pursuing a Bachelor of Engineering in Computer Science and Engineering. I have a strong foundation in Python and C/C++ and I'm passionate about creating impactful software solutions. I enjoy exploring new technologies and applying them to solve real-world problems.</p>
+            </div>
+            <a href="#two" class="goto-next scrolly">Next</a>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="main special content">
+        <div class="container">
+            <div class="content">
+                <header class="major">
+                    <h2>My Skills</h2>
+                </header>
+                <h2>Programming Languages:</h2><h4>Python, C/C++, HTML/CSS</h4>
+                <h2>Technologies /Frameworks:</h2><h4>Flask, Tkinter, Streamlit, OpenCV, PostgreSQL, Arduino, FPDF, PostgreSQL, sqlite3</h4>
+                <h2>Certifications:</h2><h4><a href="https://certificates.cs50.io/4f8d2016-0c07-4261-8d72-216af5cd2e10.png?size=letter">CS50: Introduction to Computer Science</a></h4><h4><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-47b26b3d-c814-489f-aa2d-6936dfec15b8.jpg"> Mega Course: Learn Python in 60 Days </a></h4>
+            </div>
+            <a href="#three" class="goto-next scrolly">Next</a>
+        </div>
+    </section>
+
+    <!-- Three -->
+    <section id="three" class="main special content">
+        <div class="container">
+            <div class="content">
+                <header class="major">
+                    <h2>Projects</h2>
+                </header><p>
+                Developed 2 production level apps for a hardware tool warehouse, they are as followed </p>
+ 				<h4>1) Dispatch Automation :</h4> This app simplifies creating invoices, gate passes, and stickers via a Tkinter 
+				GUI. It syncs product data from an online NoSQL database to local Excel using Google Sheets, and 
+				generates PDFs with the fpdf library.
+				<h4>2) Quotation Tracker :</h4>This Flask-based web app lets users create, edit, and print quotations to 
+				estimate orders for customers. It syncs data with Google Sheets and Zoho CRM to track entries and 
+				manage customer relations.
+				<h4>3) Votemaxxing :</h4> Developing a blockchain-based voting web application utilizing Flask for backend. 
+				Ensured secure, transparent, and tamper-proof elections, advancing democratic processes through 
+				decentralized technology. link
+			</p>
+            </div>
+            <a href="#four" class="goto-next scrolly">Next</a>
+        </div>
+    </section>
+
+	<!-- Four -->
+	<section id="four" class="main special content">
+        <div class="container">
+            <div class="content">
+                <header class="major">
+                    <h2>Socials</h2>
+                </header>
+				<h3>Feel free to connect with me on the following platforms:</p>
+				<ul class="icons-grid">
+					<li><a href="https://www.linkedin.com/in/ishtpreet-singh-98a471288/" class="icon brands alt fa-linkedin-in"><span class="label"></span></a></li>
+					<li><a href="https://github.com/IshtpreetAhuja" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.instagram.com/its.ishtpreet/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="mailto:ishtpreet.ahuja@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+            </div>
+            <a href="#footer" class="goto-next scrolly">Next</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="content">
+        <div class="container">
+            <header class="major">
+                <h2>Get in touch</h2>
+            </header>
+            <form method="post" action="#">
+                <div class="row gtr-uniform">
+                    <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                    <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+					<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+                    <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                    <div class="col-12">
+                        <ul class="actions special">
+                            <li><input type="submit" value="Send Message" class="primary" onclick="sendMail()" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
